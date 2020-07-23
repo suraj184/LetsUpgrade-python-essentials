@@ -5,3 +5,4 @@ elif str1.isupper()==True:
     print("'",str1,"'"," this string is in uppercase.")
 else:
     print("'",str1,"'"," this contain both upper and lowerr case.")
+    
