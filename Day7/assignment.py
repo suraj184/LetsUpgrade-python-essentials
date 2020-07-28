@@ -6,7 +6,7 @@ v=list(port1.values())
 dict1={}
 for each in range(len(k)):
     dict1[v[each]]=k[each]
-print("Input is ",port1,"\noutput is ",dict1)
+print("1) Input is -->",port1,"\n   output is ->",dict1)
 
 # Assignemnt : 2
 
@@ -16,7 +16,7 @@ for each in range(len(list1)):
     b=len(list1[each])
     a=list1[each][b-2]+list1[each][b-1]
     list2.append(a)
-print("Input is ",list1,"\noutput is ",list2)
+print("2) Input is -->",list1,"\n   output is ->",list2)
 
 # Assignemnt : 3
 
@@ -28,4 +28,4 @@ d,e,f=x
 list4=y+z
 for each in range(len(x)):
     list4.append(x[each])  
-print(list4)
+print("3) Input is -->",list3,"\n   output is ->",list4)
