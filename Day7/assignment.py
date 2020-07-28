@@ -23,7 +23,6 @@ print("2) Input is -->",list1,"\n   output is ->",list2)
 list3=[(1,2,3), [1,2], ['a','hit','less']]
 list4=[]
 x,y,z=list3
-d,e,f=x
 list4=y+z
 for each in range(len(x)):
     list4.append(x[each])  
