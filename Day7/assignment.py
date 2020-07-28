@@ -20,7 +20,6 @@ print("2) Input is -->",list1,"\n   output is ->",list2)
 
 # Assignemnt : 3
 
-import random as rd
 list3=[(1,2,3), [1,2], ['a','hit','less']]
 list4=[]
 x,y,z=list3
