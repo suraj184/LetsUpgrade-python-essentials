@@ -1,12 +1,8 @@
 # Assignemnt : 1 
 
 port1 = {21: "FTP", 22:"SSH", 23: "telnet", 80: "http"}
-k=list(port1.keys())
-v=list(port1.values())
-dict1={}
-for each in range(len(k)):
-    dict1[v[each]]=k[each]
-print("1) Input is -->",port1,"\n   output is ->",dict1)
+dict2 ={value:key         for key,value in port1.items()}
+print("The output:",dict2)
 
 # Assignemnt : 2
 
@@ -22,8 +18,5 @@ print("2) Input is -->",list1,"\n   output is ->",list2)
 
 list3=[(1,2,3), [1,2], ['a','hit','less']]
 list4=[]
-x,y,z=list3
-list4=y+z
-for each in range(len(x)):
-    list4.append(x[each])  
-print("3) Input is -->",list3,"\n   output is ->",list4)
+list4=[i for each in list1 for i in each]
+print ("The required output-->",list4)
